@@ -24,14 +24,14 @@ Feel free to adjust the defaults to your needs.
 
 
 
+
 /*body aanpassen*/
 body {
-    background-color: #FFF;
+/*    background-color: #FFF;*/
     margin: 0px;
     padding: 0px;
 }
 
-/*
 #content{
     position: absolute;
     width: 90%;
@@ -40,7 +40,6 @@ body {
     margin-left: 5%;
     z-index: 10;
 }
-*/
 
 iframe {
     display: block;
@@ -81,26 +80,6 @@ body{
     font-family: "Brenner Sans";
     font-style: Normal;
     font-weight: 800;
-
-animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }
 
 /* **********************************************
@@ -209,12 +188,13 @@ You probably want to change the styling.
 /*k's voice*/
 
 /*Yes*/
-.p1.on span:nth-of-type(1) {}
+.p1.on span:nth-of-type(1) {
+
+}
 
 
 /*Sir*/
 .p1.on span:nth-of-type(2) {}
-
 
 
 
@@ -1262,17 +1242,15 @@ You probably want to change the styling.
 
 /*thank*/
 .p47.on span:nth-of-type(1) {
-    ;
 }
 
 /*you,*/
 .p47.on span:nth-of-type(2) {
-    ;
 }
 
 /*sir.*/
 .p47.on span:nth-of-type(3) {
-    ;
+
 }
 
 
@@ -1859,11 +1837,10 @@ You probably want to change the styling.
 /*sound 0*/
 .sound0 {
     animation-duration: 6s;
-    animation: opac 4s 0s ease;
+    animation: testing 4s 0s ease;
 }
 
-
-@keyframes opac {
+@keyframes testing {
     0% {
         opacity: 1;
     }
@@ -1878,8 +1855,6 @@ You probably want to change the styling.
 }
 
 
-
-
 /*Code hieronder heb ik van Lizz gekregen*/
 /*sound 7 */
 .sound7 {
@@ -1891,14 +1866,6 @@ You probably want to change the styling.
     }
 
     50% {
-        transform: rotate(5deg);
-    }
-/*
-
-    100% {
-        transform: rotate(20deg);
-*/
+        transform: rotate(0deg);
     }
 }
-
-
