@@ -55,9 +55,9 @@ iframe {
 #video-placeholder {
     margin: auto;
     display: flex;
-    box-shadow: 1px 1px 50px 20px black;
-    transform: scale(30%);
-    transition: 2s;
+/*    box-shadow: 1px 1px 50px 20px black;*/
+/*    transform: scale(30%);*/
+/*    transition: 2s;*/
 }
 
 body{
